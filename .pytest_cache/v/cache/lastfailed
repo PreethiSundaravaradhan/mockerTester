@@ -1,0 +1,5 @@
+{
+  "test/test_trial.py": true, 
+  "test_trial.py": true, 
+  "tests/test_mongomocker.py::test_mongo_update": true
+}
