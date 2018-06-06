@@ -4,19 +4,17 @@ import requests
 from mockito import when, mock, unstub, mockito, patch
 from pymongo import MongoClient
 import sys
-
+from securlet_sample_calls import *
+from mock import patch
 from requests import Response
 
 sys.path.append('/Users/preethi_sundaravarad/elastica/mongoTutorial/home/')
-# Now do your import
-from securlet_sample_calls import *
-from mock import patch
+
 
 box_get_file_uri = 'https://api.box.com/2.0/files/295640148418'
 
 
 def box_api_mocker(uri):
-    #uri = 'http://google.com/'
     response = mock({'status_code': 200, 'text': 'Ok'})
     when(requests).get(uri).thenReturn(response)
     requests.get(uri)
@@ -34,7 +32,7 @@ def tmongo_update():
         assert stored_obj == obj # by comparing all fields we make sure only votes changed
 
 def mongo_update_mocker():
-    collection = mongomock.Connection().db.collection
+    collection = mongomock.MongoClient().db.collection
     objects = [dict(age=1), dict(age=2)]
     for obj in objects:
         obj['_id'] = collection.insert(obj)
@@ -54,7 +52,7 @@ def mocked_mongo_conn(self):
 
 def mocked_mongo_insert(json):
     json['mocked'] = 'true'
-    collection = mongomock.Connection().db.test
+    collection = mongomock.MongoClient().db.test
     collection.insert(json)
     return collection
 
@@ -73,36 +71,33 @@ def mocked_requests_get(value, headers = 'token'):
          "created_at": "2018-06-01T16:41:14-07:00", "modified_at": "2018-06-01T16:41:14-07:00", "trashed_at": 'null',
          "purged_at": 'null', "content_created_at": "2017-08-21T16:46:48-07:00",
          "content_modified_at": "2017-08-21T16:46:48-07:00",
-         "created_by": {"type": "user", "id": "3691026112", "name": "Preethi Sundaravaradhan",
+         "created_by": {"type": "user", "id": "3691026112", "name": "Mocked User",
                         "login": "preethisundarv@gmail.com"},
-         "modified_by": {"type": "user", "id": "3691026112", "name": "Preethi Sundaravaradhan",
+         "modified_by": {"type": "user", "id": "3691026112", "name": "Mocked User",
                          "login": "preethisundarv@gmail.com"},
-         "owned_by": {"type": "user", "id": "3691026112", "name": "Preethi Sundaravaradhan",
+         "owned_by": {"type": "user", "id": "3691026112", "name": "Mocked User",
                       "login": "preethisundarv@gmail.com"}, "shared_link": 'null',
          "parent": {"type": "folder", "id": "0", "sequence_id": 'null', "etag": 'null', "name": "All Files"},
          "item_status": "active"}
         expected_resp._content = json.dumps(dict)
         print("###here returned")
         return expected_resp
-    elif(value == 'http://localhost:9200/accounts/person/_search?q=Preethi Sundaravaradhan'):
+    elif(value == 'http://localhost:9200/accounts/person/_search?q=Mocked User'):
         dict = {"took":1,"timed_out":'false',"_shards":{"total":5,"successful":5,"skipped":0,"failed":0},"hits":{"total":1,"max_score":0.2876821,"hits":[{"_index":"accounts","_type":"person","_id":"5","_score":0.2876821,"_source":{
-                "name" : "Preethi","age" : "5","status" : "done"}}]}}
+                "name" : "Mocked","age" : "5","status" : "done"}}]}}
         expected_resp._content = json.dumps(dict)
         return expected_resp
 
     else:
         print("not equal!!!!!!!!!!!"+value)
-    return "Preethi"
+    return "error"
 
 
 @patch('pymongo.MongoClient', side_effect=mocked_mongo_conn)
 @patch('requests.get', side_effect=mocked_requests_get)
 @patch('pymongo.collection.Collection.insert', side_effect=mocked_mongo_insert)
 def test_func_sample(self, *args):
-    # box_api_mocker(box_get_file_uri)
-    # mongo_update_mocker()
-    # box_api_mocker(box_get_file_uri) #TODO: ES mock (ES is REST call exactly like box)
-    # x = 1 + 2
-    # assert x == 3
-
     func_sample()
+
+
+test_func_sample()
