@@ -1,0 +1,1 @@
+{"item": { "id": "FILE_ID", "type": "file"}, "accessible_by": { "id": "USER_ID", "type": "user" }, "role": "editor"}

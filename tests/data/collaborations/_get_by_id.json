@@ -1,0 +1,29 @@
+{
+  "status": "accepted",
+  "created_at": "2018-06-12T10:58:36-07:00",
+  "modified_at": "2018-06-12T10:58:36-07:00",
+  "expires_at": null,
+  "acknowledged_at": "2018-06-12T10:58:36-07:00",
+  "item": {
+    "sequence_id": "0",
+    "etag": "0",
+    "type": "folder",
+    "id": "50218147730",
+    "name": "test_pree"
+  },
+  "role": "editor",
+  "created_by": {
+    "login": "tony.secure@aol.com",
+    "type": "user",
+    "id": "214701521",
+    "name": "Tony Secure"
+  },
+  "accessible_by": {
+    "login": "Preethi_Sundaravarad@symantec.com",
+    "type": "user",
+    "id": "3719383593",
+    "name": "Preethi Sundaravaradhan"
+  },
+  "type": "collaboration",
+  "id": "13446345687"
+}

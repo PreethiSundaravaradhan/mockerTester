@@ -1,0 +1,170 @@
+{
+  "next_stream_position": 9008725069578758,
+  "chunk_size": 100,
+  "entries": [
+    {
+      "event_type": "ITEM_DOWNLOAD",
+      "event_id": "084440a0ba4342ec014e06151f76c724ac6ae56d",
+      "created_at": "2018-05-08T14:26:26-07:00",
+      "created_by": {
+        "login": "tony.secure@aol.com",
+        "type": "user",
+        "id": "214701521",
+        "name": "Tony Secure"
+      },
+      "source": {
+        "item_status": "active",
+        "content_created_at": "2018-04-26T14:27:06-07:00",
+        "id": "290036177752",
+        "size": 133,
+        "modified_by": {
+          "login": "tony.secure@aol.com",
+          "type": "user",
+          "id": "214701521",
+          "name": "Tony Secure"
+        },
+        "file_version": {
+          "sha1": "de08fa24cbc2d7b631c05d0bd24663261dc6d642",
+          "type": "file_version",
+          "id": "305255358040"
+        },
+        "created_by": {
+          "login": "tony.secure@aol.com",
+          "type": "user",
+          "id": "214701521",
+          "name": "Tony Secure"
+        },
+        "etag": "0",
+        "purged_at": null,
+        "shared_link": null,
+        "path_collection": {
+          "total_count": 2,
+          "entries": [
+            {
+              "sequence_id": null,
+              "etag": null,
+              "type": "folder",
+              "id": "0",
+              "name": "All Files"
+            },
+            {
+              "sequence_id": "0",
+              "etag": "0",
+              "type": "folder",
+              "id": "48981825802",
+              "name": "Tony_Test"
+            }
+          ]
+        },
+        "description": "",
+        "parent": {
+          "sequence_id": "0",
+          "etag": "0",
+          "type": "folder",
+          "id": "48981825802",
+          "name": "Tony_Test"
+        },
+        "trashed_at": null,
+        "content_modified_at": "2018-04-26T14:27:06-07:00",
+        "sequence_id": "0",
+        "synced": false,
+        "sha1": "de08fa24cbc2d7b631c05d0bd24663261dc6d642",
+        "name": "tony_test__10.txt",
+        "type": "file",
+        "created_at": "2018-04-26T14:27:55-07:00",
+        "modified_at": "2018-04-26T14:27:55-07:00",
+        "owned_by": {
+          "login": "tony.secure@aol.com",
+          "type": "user",
+          "id": "214701521",
+          "name": "Tony Secure"
+        }
+      },
+      "session_id": "q916omfr4myrn1xo",
+      "recorded_at": "2018-05-08T14:26:27-07:00",
+      "type": "event"
+    },
+    {
+      "event_type": "ITEM_DOWNLOAD",
+      "event_id": "695991007c312949a2bb49b2a8c510df3c752fa4",
+      "created_at": "2018-05-08T14:26:27-07:00",
+      "created_by": {
+        "login": "tony.secure@aol.com",
+        "type": "user",
+        "id": "214701521",
+        "name": "Tony Secure"
+      },
+      "source": {
+        "item_status": "active",
+        "content_created_at": "2018-03-29T17:36:37-07:00",
+        "id": "285569249380",
+        "size": 976,
+        "modified_by": {
+          "login": "tony.secure@aol.com",
+          "type": "user",
+          "id": "214701521",
+          "name": "Tony Secure"
+        },
+        "file_version": {
+          "sha1": "7e8c4e78a47ef37e63fb86220ee8c4801c883992",
+          "type": "file_version",
+          "id": "300498091972"
+        },
+        "created_by": {
+          "login": "tony.secure@aol.com",
+          "type": "user",
+          "id": "214701521",
+          "name": "Tony Secure"
+        },
+        "etag": "2",
+        "purged_at": null,
+        "shared_link": null,
+        "path_collection": {
+          "total_count": 2,
+          "entries": [
+            {
+              "sequence_id": null,
+              "etag": null,
+              "type": "folder",
+              "id": "0",
+              "name": "All Files"
+            },
+            {
+              "sequence_id": "0",
+              "etag": "0",
+              "type": "folder",
+              "id": "48216345212",
+              "name": "TONY-FOLDER-1"
+            }
+          ]
+        },
+        "description": "",
+        "parent": {
+          "sequence_id": "0",
+          "etag": "0",
+          "type": "folder",
+          "id": "48216345212",
+          "name": "TONY-FOLDER-1"
+        },
+        "trashed_at": null,
+        "content_modified_at": "2018-03-29T17:36:37-07:00",
+        "sequence_id": "2",
+        "synced": false,
+        "sha1": "7e8c4e78a47ef37e63fb86220ee8c4801c883992",
+        "name": "Medical Record.rtf",
+        "type": "file",
+        "created_at": "2018-03-29T17:36:37-07:00",
+        "modified_at": "2018-03-29T17:36:37-07:00",
+        "owned_by": {
+          "login": "tony.secure@aol.com",
+          "type": "user",
+          "id": "214701521",
+          "name": "Tony Secure"
+        }
+      },
+      "session_id": "qjdi30fr4myrudd5",
+      "recorded_at": "2018-05-08T14:26:28-07:00",
+      "type": "event"
+    }
+  ]
+}

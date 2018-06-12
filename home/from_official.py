@@ -8,7 +8,7 @@ def get_mongo_db():
 
 def print_mongo_users():
     db = get_mongo_db()
-    usr = db.users
+    usr = db.collab
     for user in usr.find():
         print(user)
     return usr
@@ -23,13 +23,14 @@ def get_mongo_users():
 def mongo_add(json):
    # client = MongoClient()
     db = get_mongo_db()
-    db.users.insert(json)
-    return
+    x = db.collab.insert(json)
+    return x
 
 def mongo_delete_all():
     db = get_mongo_db()
     db.users.remove()
     return
 
-print_mongo_users()
+if __name__ == "__main__":
+    mongo_add({"collab": 1})
 
