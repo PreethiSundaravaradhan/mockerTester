@@ -1,0 +1,87 @@
+{
+  "next_stream_position": 9008725589236347,
+  "chunk_size": 2,
+  "entries": [{
+      "event_type": "ITEM_UPLOAD",
+      "event_id": "d60ff393f1ee55d648e9c7784811d7b4932a61a2",
+      "created_at": "2018-05-21T12:40:08-07:00",
+      "created_by": {
+        "login": "qa-admin@o365security.org",
+        "type": "user",
+        "id": "524431690",
+        "name": "Symantec Sandbox"
+      },
+      "source": {
+        "item_status": "active",
+        "content_created_at": "2018-05-21T12:40:08-07:00",
+        "id": "293795226066",
+        "size": 169,
+        "modified_by": {
+          "login": "qa-admin@o365security.org",
+          "type": "user",
+          "id": "524431690",
+          "name": "Symantec Sandbox"
+        },
+        "file_version": {
+          "sha1": "2dac7220351535781c6ea8e0de5a77e8ee9c6b60",
+          "type": "file_version",
+          "id": "309261601938"
+        },
+        "created_by": {
+          "login": "qa-admin@o365security.org",
+          "type": "user",
+          "id": "524431690",
+          "name": "Symantec Sandbox"
+        },
+        "etag": "0",
+        "purged_at": null,
+        "shared_link": null,
+        "path_collection": {
+          "total_count": 2,
+          "entries": [
+            {
+              "sequence_id": null,
+              "etag": null,
+              "type": "folder",
+              "id": "0",
+              "name": "All Files"
+            },
+            {
+              "sequence_id": "0",
+              "etag": "0",
+              "type": "folder",
+              "id": "49629801804",
+              "name": "FOLDER-1"
+            }
+          ]
+        },
+        "description": "",
+        "parent": {
+          "sequence_id": "0",
+          "etag": "0",
+          "type": "folder",
+          "id": "49629801804",
+          "name": "FOLDER-1"
+        },
+        "trashed_at": null,
+        "content_modified_at": "2018-05-21T12:40:08-07:00",
+        "sequence_id": "0",
+        "synced": false,
+        "sha1": "2dac7220351535781c6ea8e0de5a77e8ee9c6b60",
+        "name": "PII.txt",
+        "type": "file",
+        "created_at": "2018-05-21T12:40:08-07:00",
+        "modified_at": "2018-05-21T12:40:08-07:00",
+        "owned_by": {
+          "login": "qa-admin@o365security.org",
+          "type": "user",
+          "id": "524431690",
+          "name": "Symantec Sandbox"
+        }
+      },
+      "session_id": "ec61fhfrjkhllzxo",
+      "recorded_at": "2018-05-21T12:40:09-07:00",
+      "type": "event"
+        }
+  ]
+}

@@ -15,6 +15,8 @@ box_get_file_uri = 'https://api.box.com/2.0/files/295640148418'
 box_uri_identifier = "box.com"
 es_uri_identifier = "accounts/person"
 
+
+
 def mocked_mongo_insert(json):
     json['mocked'] = 'true'
     collection = mongomock.MongoClient().db.test
@@ -24,7 +26,7 @@ def mocked_mongo_insert(json):
     print(stored_obj)
 
 # Process each of file, folder, collab differently
-def mocked_box_get_apis(value):
+def mocked_box_get_apis(value, stream):
     req_file = './data/collaborations/_get_file.json'
     parsed_url = value.split("/")
     item = parsed_url[4]
@@ -32,6 +34,11 @@ def mocked_box_get_apis(value):
         if len(parsed_url) > 6:
             if(parsed_url[6] == 'collaborations'):
                 req_file = './data/collaborations/_get_file.json'
+            elif((parsed_url[6] == 'content') and (stream == True)):
+                req_file = './data/files/textfile.txt'
+                # with open(req_file) as file:
+                return req_file
+
         else:
             req_file = './data/files/_get.json'
 
@@ -101,12 +108,22 @@ def mocked_requests_post(value, data, headers = 'token', files=None, testcase='s
         print("Handle this URI correctly: " + value)
     return "error"
 
+
+def generate_file(file):
+
+    return
+
 # Isolates box, es, mongo and other calls based on get request uri
-def mocked_requests_get(value, headers = 'token', testcase='success'):
+def mocked_requests_get(value, headers = 'token', testcase='success', stream=False):
     expected_resp = Response()
     if box_uri_identifier in value:  # example: 'https://api.box.com/2.0/files/295640148418'):
-        mock_file = mocked_box_get_apis(value)
-        expected_resp._content = mock_file
+        mock_file = mocked_box_get_apis(value, stream)
+        if(stream == True):
+            with open(mock_file) as file1:
+                expected_resp._content = file1.read()
+                expected_resp.iter_content = generate_file(file1)
+        else:
+            expected_resp._content = mock_file
         return expected_resp
 
     elif es_uri_identifier in value:
@@ -122,9 +139,9 @@ def mocked_requests_get(value, headers = 'token', testcase='success'):
     return "error"
 
 
-#Todo::collab_files_on_folder mockers
+# Todo::collab_files_on_folder mockers
 
-#@patch('pymongo.database.Database', side_effect=mocked_mongo_conn)
+# @patch('pymongo.database.Database', side_effect=mocked_mongo_conn)
 @patch('requests.delete', side_effect=mocked_requests_delete)
 @patch('requests.post', side_effect=mocked_requests_post)
 @patch('requests.get', side_effect=mocked_requests_get)
@@ -134,7 +151,7 @@ def main_tester(self, *args):
     parent_0 = '50218147730'
     user_q = 'Preethi_Sundaravarad@symantec.com'
     collab_files_on_folder(token, parent_0, user_q)
-    #print(stored_obj)
+    # print(stored_obj)
 
 stored_obj = []
-main_tester()
+# main_tester()

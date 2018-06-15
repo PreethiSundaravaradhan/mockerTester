@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b9c15cd-d6fe-4d60-8cb2-5a3c4611a0b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/data/events/get_item_download.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mockerTester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mockerTester.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/from_official.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/from_official.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/securlet_sample_calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/securlet_sample_calls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/box/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/box_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/box/box_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/from_official.py" beforeDir="false" afterPath="$PROJECT_DIR$/box/mongo_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/securlet_sample_calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/box/securlet_sample_calls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/trymockito.py" beforeDir="false" afterPath="$PROJECT_DIR$/box/trymockito.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/tests/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/data/event/get_item_download.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_mongomocker.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_mongomocker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_trial.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="securlet_sample_calls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/securlet_sample_calls.py">
+        <entry file="file://$PROJECT_DIR$/box/securlet_sample_calls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="e#36#47#0" expanded="true" />
               </folding>
@@ -30,44 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_get_by_id.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_by_id.json">
+      <file leaf-file-name="stream_processing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/box/stream_processing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="from_official.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/from_official.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="525">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_box.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_box.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#37#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="box_apis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/box_apis.py">
+        <entry file="file://$PROJECT_DIR$/box/box_apis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="72">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -75,10 +63,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_get_folder.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_folder.json">
+      <file leaf-file-name="test_mock_events.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_mock_events.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
+              <folding>
+                <element signature="e#105#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_event_multiple.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/data/events/get_event_multiple.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#7382#7512#0" />
+                <element signature="e#9343#9449#0" />
+                <element signature="e#9821#9967#0" />
+                <element signature="e#10138#10289#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_box.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_box.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_get_file.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_file.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="863">
               <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
@@ -106,6 +133,18 @@
       <find>dele</find>
       <find>mocked_requests_post</find>
       <find>all_folders</find>
+      <find>type</find>
+      <find>ITEM_TRASH</find>
+      <find>next_stream_position</find>
+      <find>editor</find>
+      <find>upload</find>
+      <find>event_type</find>
+      <find>qa-admin</find>
+      <find>item_upload</find>
+      <find>item_create</find>
+      <find>json</find>
+      <find>chun</find>
+      <find>process_one_event</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -137,21 +176,35 @@
         <option value="$PROJECT_DIR$/tests/data/folders/post_123.json" />
         <option value="$PROJECT_DIR$/tests/data/files/file_upload.json" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/get_folder.json" />
-        <option value="$PROJECT_DIR$/home/from_official.py" />
         <option value="$PROJECT_DIR$/tests/data/folders/_get" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/_post_folder.json" />
         <option value="$PROJECT_DIR$/tests/data/es/_get_person.json" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/_remove_fail.txt" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/_remove_success.txt" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/_get_by_id.json" />
-        <option value="$PROJECT_DIR$/tests/test_mongomocker.py" />
         <option value="$PROJECT_DIR$/tests/data/folders/response/_post.json" />
         <option value="$PROJECT_DIR$/tests/data/files/response/_post.json" />
-        <option value="$PROJECT_DIR$/home/box_apis.py" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/_get_file.json" />
         <option value="$PROJECT_DIR$/tests/data/collaborations/_get_folder.json" />
+        <option value="$PROJECT_DIR$/home/from_official.py" />
+        <option value="$PROJECT_DIR$/tests/data/event/get_collab_invite_collaborator.json" />
+        <option value="$PROJECT_DIR$/tests/data/event/get_item_download.json" />
+        <option value="$PROJECT_DIR$/tests/data/event/get_many.json" />
+        <option value="$PROJECT_DIR$/tests/data/event/get_collab_role_change.json" />
+        <option value="$PROJECT_DIR$/tests/data/event/get_item_upload.json" />
+        <option value="$PROJECT_DIR$/tests/data/event/get_item_create.json" />
+        <option value="$PROJECT_DIR$/tests/mock_events.py" />
+        <option value="$PROJECT_DIR$/home/stream_processing.py" />
         <option value="$PROJECT_DIR$/home/securlet_sample_calls.py" />
+        <option value="$PROJECT_DIR$/home/box_apis.py" />
+        <option value="$PROJECT_DIR$/tests/data/events/get_event_multiple.json" />
+        <option value="$PROJECT_DIR$/box/securlet_sample_calls.py" />
+        <option value="$PROJECT_DIR$/box/mongo_apis.py" />
+        <option value="$PROJECT_DIR$/tests/test_mongomocker.py" />
+        <option value="$PROJECT_DIR$/box/box_apis.py" />
+        <option value="$PROJECT_DIR$/tests/data/files/290038029734" />
         <option value="$PROJECT_DIR$/tests/test_box.py" />
+        <option value="$PROJECT_DIR$/tests/test_mock_events.py" />
       </list>
     </option>
   </component>
@@ -177,6 +230,11 @@
             <path>
               <item name="mockerTester" type="b2602c69:ProjectViewProjectNode" />
               <item name="mongoTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mockerTester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongoTutorial" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,7 +248,7 @@
               <item name="mongoTutorial" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="folders" type="462c0819:PsiDirectoryNode" />
+              <item name="collaborations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,12 +263,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/data/collaborations" />
       <recent name="$PROJECT_DIR$/tests/data/files" />
+      <recent name="$PROJECT_DIR$/tests/data/files/response" />
+      <recent name="$PROJECT_DIR$/tests/data/collaborations" />
       <recent name="$PROJECT_DIR$/home" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/data/files" />
       <recent name="$PROJECT_DIR$/home" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
@@ -227,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_box">
+  <component name="RunManager" selected="Python.test_mock_events">
     <configuration name="box_apis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mockerTester" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,7 +306,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="from-official" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="securlet_sample_calls (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mockerTester" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,11 +314,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/box" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/home/from_official.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/box/securlet_sample_calls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,7 +360,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test_mongomocker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_mock_events" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mockerTester" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,26 +372,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_mongomocker.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_mock_events.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.from-official" />
       <item itemvalue="Python.securlet_sample_calls" />
-      <item itemvalue="Python.test_mongomocker" />
       <item itemvalue="Python.box_apis" />
       <item itemvalue="Python.test_box" />
+      <item itemvalue="Python.test_mock_events" />
+      <item itemvalue="Python.securlet_sample_calls (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_box" />
+        <item itemvalue="Python.test_mock_events" />
+        <item itemvalue="Python.securlet_sample_calls (1)" />
         <item itemvalue="Python.securlet_sample_calls" />
         <item itemvalue="Python.box_apis" />
-        <item itemvalue="Python.from-official" />
-        <item itemvalue="Python.test_mongomocker" />
+        <item itemvalue="Python.test_box" />
       </list>
     </recent_temporary>
   </component>
@@ -383,13 +443,13 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24665257" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32969698" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.32848486" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5018182" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37454545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" weight="0.32848486" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -413,150 +473,75 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/home/securlet_sample_calls.py</url>
-          <line>97</line>
+          <url>file://$PROJECT_DIR$/box/securlet_sample_calls.py</url>
+          <line>172</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/home/box_apis.py</url>
-          <line>95</line>
+          <url>file://$PROJECT_DIR$/box/box_apis.py</url>
+          <line>107</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/home/securlet_sample_calls.py</url>
-          <line>57</line>
+          <url>file://$PROJECT_DIR$/box/securlet_sample_calls.py</url>
+          <line>132</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/home/box_apis.py</url>
-          <line>124</line>
+          <url>file://$PROJECT_DIR$/box/box_apis.py</url>
+          <line>137</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/home/box_apis.py</url>
-          <line>134</line>
+          <url>file://$PROJECT_DIR$/box/box_apis.py</url>
+          <line>147</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_box.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/box/box_apis.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/box/box_apis.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/box/mongo_apis.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/box/securlet_sample_calls.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/box/securlet_sample_calls.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_mongomocker.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/box/securlet_sample_calls.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/box/securlet_sample_calls.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="71" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home/from_official.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/trymockito.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_trial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/1" />
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_trial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/pymongo/cursor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13347">
-          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/trymockito.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1993">
-          <caret line="169" column="37" lean-forward="true" selection-start-line="169" selection-start-column="37" selection-end-line="169" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/pymongo/mongo_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/mongomock/collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="301" selection-start-line="301" selection-end-line="301" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/pymongo/database.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="190" selection-start-line="190" selection-end-line="190" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk/Canvas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/file_get_template_305255358040.json" />
-    <entry file="file://$PROJECT_DIR$/home/post_file_collab.json" />
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="337" selection-start-line="337" selection-end-line="337" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/data/files/_get_fail.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2505">
@@ -580,16 +565,6 @@
           <caret line="158" selection-start-line="158" selection-end-line="158" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/files/_upload.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/files/textfile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/requests/sessions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,40 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/files/_get.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/from_official.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="383" selection-start-line="383" selection-end-line="383" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/pymongo/collection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="385" selection-start-line="385" selection-end-line="385" />
-          <folding>
-            <element signature="e#624#639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/requests/adapters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -688,34 +629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_by_id.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/mock/mock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1127" selection-start-line="1127" selection-end-line="1127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/data/folders/_get.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="26" lean-forward="true" selection-end-line="81" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_mongomocker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#37#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,39 +664,271 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_file.json">
+    <entry file="file://$PROJECT_DIR$/tests/test_trial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/box_apis.py">
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_many.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="682">
+          <caret line="1186" column="24" selection-start-line="1186" selection-start-column="15" selection-end-line="1186" selection-end-column="24" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#279#423#0" />
+            <element signature="e#884#1038#0" />
+            <element signature="e#1066#1209#0" />
+            <element signature="e#4415#4559#0" />
+            <element signature="e#5020#5174#0" />
+            <element signature="e#5202#5345#0" />
+            <element signature="e#180042#180175#0" />
+            <element signature="e#180366#180509#0" />
+            <element signature="e#180536#180676#0" />
+            <element signature="e#180701#180844#0" />
+            <element signature="e#181460#181617#0" />
+            <element signature="e#182014#182157#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/securlet_sample_calls.py">
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_many2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="51694" column="5" selection-start-line="51625" selection-start-column="4" selection-end-line="51694" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/_upload.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/_get.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="84" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/297549297696">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box/trymockito.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/290035142549">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="557" selection-start-line="557" selection-end-line="557" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/pymongo/collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#624#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/pymongo/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="190" selection-start-line="190" selection-end-line="190" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/unit-tester/venv/lib/python2.7/site-packages/mock/mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1127" selection-start-line="1127" selection-end-line="1127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_item_upload.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="86" column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_item_create.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="69" column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#created_by#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_collab_invite_collaborator.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="52" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/285250023178">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/293795226066">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_item_download.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#254#384#0" />
+            <element signature="e#570#710#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_collab_role_change.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#259#365#0" />
+            <element signature="e#737#883#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_by_id.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/collaborations/_get_file.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box/mongo_apis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_mongomocker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/290038029734">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/events/get_event_multiple.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#7382#7512#0" />
+            <element signature="e#9343#9449#0" />
+            <element signature="e#9821#9967#0" />
+            <element signature="e#10138#10289#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box/securlet_sample_calls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="e#36#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/box/box_apis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/files/textfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_box.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+        <state relative-caret-position="123">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/box/stream_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#37#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_mock_events.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#105#116#0" expanded="true" />
           </folding>
         </state>
       </provider>

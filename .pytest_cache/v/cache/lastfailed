@@ -1,6 +1,8 @@
 {
   "test/test_trial.py": true, 
   "test_trial.py": true, 
+  "tests/test_box.py": true, 
+  "tests/test_mock_events.py::test_fake_UC1": true, 
   "tests/test_mongomocker.py": true, 
   "tests/test_mongomocker.py::test_func_sample": true, 
   "tests/test_mongomocker.py::test_mongo_update": true

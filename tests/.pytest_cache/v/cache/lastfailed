@@ -1,3 +1,6 @@
 {
+  "test_box.py": true, 
+  "test_mock_events.py": true, 
+  "test_mongomocker.py": true, 
   "test_trial.py": true
 }

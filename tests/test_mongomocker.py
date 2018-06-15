@@ -1,21 +1,21 @@
 #!/usr/local/var/pyenv/shims/python
-
 import mongomock
-import requests
 from mockito import when, mock, unstub, mockito, patch
-from pymongo import MongoClient
 import sys
-from securlet_sample_calls import *
-from mock import patch
-from requests import Response
-
+from box.securlet_sample_calls import *
 from tests.test_box import stored_obj
 
-sys.path.append('/Users/preethi_sundaravarad/elastica/mongoTutorial/tests/')
+sys.path.append('/Users/preethi_sundaravarad/elastica/mongoTutorial/box/')
 
 
 box_get_file_uri = 'https://api.box.com/2.0/files/295640148418'
 
+
+def mocked_mongo_find(condition):
+    collection = mongomock.MongoClient().db.collab
+    for item in stored_obj:
+        collection.insert(item)
+    return collection.find(condition)
 
 def box_api_mocker(uri):
     response = mock({'status_code': 200, 'text': 'Ok'})
@@ -28,7 +28,6 @@ def tmongo_update():
     objects = [dict(age=1), dict(age=2)]
     for obj in objects:
         obj['_id'] = collection.insert(obj)
-    #mongo_update_age()
     for obj in objects:
         stored_obj = collection.find_one({'_id' : obj['_id']})
         stored_obj['age'] -= 1
@@ -39,7 +38,6 @@ def mongo_update_mocker():
     objects = [dict(age=1), dict(age=2)]
     for obj in objects:
         obj['_id'] = collection.insert(obj)
-    #mongo_update_age()
     for obj in objects:
         stored_obj = collection.find_one({'_id' : obj['_id']})
         stored_obj['age'] -= 1
